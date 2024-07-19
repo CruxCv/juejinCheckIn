@@ -436,7 +436,7 @@ const defaultCookies =
 async function start() {
   try {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       devtools: false, // 调试面板
     });
 
