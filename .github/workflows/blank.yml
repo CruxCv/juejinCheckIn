@@ -26,9 +26,6 @@ jobs:
       - uses:
           actions/checkout@v2
 
-      - name: Use Chrome
-        uses: actions/setup-chrome@v1
-
       #安装node.js
       - name: Setup Node.js
         uses: actions/setup-node@v2
